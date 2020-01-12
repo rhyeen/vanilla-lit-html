@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-lit-html",
+  "version": "1.0.0",
+  "description": "An example of how to use lit-html to reduce reptitive html in barebone websites",
+  "scripts": {
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhyeen/vanilla-lit-html.git"
+  },
+  "author": "Ryan Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhyeen/vanilla-lit-html/issues"
+  },
+  "homepage": "https://github.com/rhyeen/vanilla-lit-html#readme",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2"
+  }
+}

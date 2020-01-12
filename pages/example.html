@@ -1,0 +1,16 @@
+<html>
+  <script type="module">
+    import { render } from '../node_modules/lit-html/lit-html.js';
+    import { headerTemplate } from '../components/header.js';
+
+    render(headerTemplate('..', 'Example'), document.getElementById('header'));
+
+  </script>
+  <body>
+    <section id="header"></section>
+    <main>
+      <h2>This is our example page</h2>
+      <p>It is also boring.</p>
+    </main>
+  </body>
+</html>
